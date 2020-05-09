@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D99E0F7D24665698006721CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E0F7C24665698006721CD /* AppDelegate.swift */; };
+		D99E0F7F24665698006721CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E0F7E24665698006721CD /* ViewController.swift */; };
+		D99E0F8124665698006721CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99E0F8024665698006721CD /* Assets.xcassets */; };
+		D99E0F8424665698006721CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99E0F8224665698006721CD /* Main.storyboard */; };
+		D99E0F9024665699006721CD /* WarGameDesigner2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E0F8F24665699006721CD /* WarGameDesigner2Tests.swift */; };
+		D99E0F9B24665699006721CD /* WarGameDesigner2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E0F9A24665699006721CD /* WarGameDesigner2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D99E0F8C24665699006721CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D99E0F7124665698006721CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D99E0F7824665698006721CD;
+			remoteInfo = WarGameDesigner2;
+		};
+		D99E0F9724665699006721CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D99E0F7124665698006721CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D99E0F7824665698006721CD;
+			remoteInfo = WarGameDesigner2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D99E0F7924665698006721CD /* WarGameDesigner2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarGameDesigner2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99E0F7C24665698006721CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D99E0F7E24665698006721CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D99E0F8024665698006721CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D99E0F8324665698006721CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D99E0F8524665698006721CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99E0F8624665698006721CD /* WarGameDesigner2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WarGameDesigner2.entitlements; sourceTree = "<group>"; };
+		D99E0F8B24665699006721CD /* WarGameDesigner2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarGameDesigner2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99E0F8F24665699006721CD /* WarGameDesigner2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameDesigner2Tests.swift; sourceTree = "<group>"; };
+		D99E0F9124665699006721CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99E0F9624665699006721CD /* WarGameDesigner2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarGameDesigner2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99E0F9A24665699006721CD /* WarGameDesigner2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameDesigner2UITests.swift; sourceTree = "<group>"; };
+		D99E0F9C24665699006721CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D99E0F7624665698006721CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99E0F8824665699006721CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99E0F9324665699006721CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D99E0F7024665698006721CD = {
+			isa = PBXGroup;
+			children = (
+				D99E0F7B24665698006721CD /* WarGameDesigner2 */,
+				D99E0F8E24665699006721CD /* WarGameDesigner2Tests */,
+				D99E0F9924665699006721CD /* WarGameDesigner2UITests */,
+				D99E0F7A24665698006721CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D99E0F7A24665698006721CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D99E0F7924665698006721CD /* WarGameDesigner2.app */,
+				D99E0F8B24665699006721CD /* WarGameDesigner2Tests.xctest */,
+				D99E0F9624665699006721CD /* WarGameDesigner2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D99E0F7B24665698006721CD /* WarGameDesigner2 */ = {
+			isa = PBXGroup;
+			children = (
+				D99E0F7C24665698006721CD /* AppDelegate.swift */,
+				D99E0F7E24665698006721CD /* ViewController.swift */,
+				D99E0F8024665698006721CD /* Assets.xcassets */,
+				D99E0F8224665698006721CD /* Main.storyboard */,
+				D99E0F8524665698006721CD /* Info.plist */,
+				D99E0F8624665698006721CD /* WarGameDesigner2.entitlements */,
+			);
+			path = WarGameDesigner2;
+			sourceTree = "<group>";
+		};
+		D99E0F8E24665699006721CD /* WarGameDesigner2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D99E0F8F24665699006721CD /* WarGameDesigner2Tests.swift */,
+				D99E0F9124665699006721CD /* Info.plist */,
+			);
+			path = WarGameDesigner2Tests;
+			sourceTree = "<group>";
+		};
+		D99E0F9924665699006721CD /* WarGameDesigner2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D99E0F9A24665699006721CD /* WarGameDesigner2UITests.swift */,
+				D99E0F9C24665699006721CD /* Info.plist */,
+			);
+			path = WarGameDesigner2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D99E0F7824665698006721CD /* WarGameDesigner2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99E0F9F24665699006721CD /* Build configuration list for PBXNativeTarget "WarGameDesigner2" */;
+			buildPhases = (
+				D99E0F7524665698006721CD /* Sources */,
+				D99E0F7624665698006721CD /* Frameworks */,
+				D99E0F7724665698006721CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarGameDesigner2;
+			productName = WarGameDesigner2;
+			productReference = D99E0F7924665698006721CD /* WarGameDesigner2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D99E0F8A24665699006721CD /* WarGameDesigner2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99E0FA224665699006721CD /* Build configuration list for PBXNativeTarget "WarGameDesigner2Tests" */;
+			buildPhases = (
+				D99E0F8724665699006721CD /* Sources */,
+				D99E0F8824665699006721CD /* Frameworks */,
+				D99E0F8924665699006721CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D99E0F8D24665699006721CD /* PBXTargetDependency */,
+			);
+			name = WarGameDesigner2Tests;
+			productName = WarGameDesigner2Tests;
+			productReference = D99E0F8B24665699006721CD /* WarGameDesigner2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D99E0F9524665699006721CD /* WarGameDesigner2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99E0FA524665699006721CD /* Build configuration list for PBXNativeTarget "WarGameDesigner2UITests" */;
+			buildPhases = (
+				D99E0F9224665699006721CD /* Sources */,
+				D99E0F9324665699006721CD /* Frameworks */,
+				D99E0F9424665699006721CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D99E0F9824665699006721CD /* PBXTargetDependency */,
+			);
+			name = WarGameDesigner2UITests;
+			productName = WarGameDesigner2UITests;
+			productReference = D99E0F9624665699006721CD /* WarGameDesigner2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D99E0F7124665698006721CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Michael O'Connell";
+				TargetAttributes = {
+					D99E0F7824665698006721CD = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					D99E0F8A24665699006721CD = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D99E0F7824665698006721CD;
+					};
+					D99E0F9524665699006721CD = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D99E0F7824665698006721CD;
+					};
+				};
+			};
+			buildConfigurationList = D99E0F7424665698006721CD /* Build configuration list for PBXProject "WarGameDesigner2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D99E0F7024665698006721CD;
+			productRefGroup = D99E0F7A24665698006721CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D99E0F7824665698006721CD /* WarGameDesigner2 */,
+				D99E0F8A24665699006721CD /* WarGameDesigner2Tests */,
+				D99E0F9524665699006721CD /* WarGameDesigner2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D99E0F7724665698006721CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99E0F8124665698006721CD /* Assets.xcassets in Resources */,
+				D99E0F8424665698006721CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99E0F8924665699006721CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99E0F9424665699006721CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D99E0F7524665698006721CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99E0F7F24665698006721CD /* ViewController.swift in Sources */,
+				D99E0F7D24665698006721CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99E0F8724665699006721CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99E0F9024665699006721CD /* WarGameDesigner2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99E0F9224665699006721CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99E0F9B24665699006721CD /* WarGameDesigner2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D99E0F8D24665699006721CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D99E0F7824665698006721CD /* WarGameDesigner2 */;
+			targetProxy = D99E0F8C24665699006721CD /* PBXContainerItemProxy */;
+		};
+		D99E0F9824665699006721CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D99E0F7824665698006721CD /* WarGameDesigner2 */;
+			targetProxy = D99E0F9724665699006721CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D99E0F8224665698006721CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99E0F8324665698006721CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D99E0F9D24665699006721CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D99E0F9E24665699006721CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D99E0FA024665699006721CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WarGameDesigner2/WarGameDesigner2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5RKJCTW7W3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WarGameDesigner2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.sandcreekstudios.WarGameDesigner2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D99E0FA124665699006721CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WarGameDesigner2/WarGameDesigner2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5RKJCTW7W3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WarGameDesigner2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.sandcreekstudios.WarGameDesigner2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D99E0FA324665699006721CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5RKJCTW7W3;
+				INFOPLIST_FILE = WarGameDesigner2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sandcreekstudios.WarGameDesigner2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarGameDesigner2.app/Contents/MacOS/WarGameDesigner2";
+			};
+			name = Debug;
+		};
+		D99E0FA424665699006721CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5RKJCTW7W3;
+				INFOPLIST_FILE = WarGameDesigner2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sandcreekstudios.WarGameDesigner2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarGameDesigner2.app/Contents/MacOS/WarGameDesigner2";
+			};
+			name = Release;
+		};
+		D99E0FA624665699006721CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5RKJCTW7W3;
+				INFOPLIST_FILE = WarGameDesigner2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.sandcreekstudios.WarGameDesigner2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WarGameDesigner2;
+			};
+			name = Debug;
+		};
+		D99E0FA724665699006721CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5RKJCTW7W3;
+				INFOPLIST_FILE = WarGameDesigner2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.sandcreekstudios.WarGameDesigner2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WarGameDesigner2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D99E0F7424665698006721CD /* Build configuration list for PBXProject "WarGameDesigner2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99E0F9D24665699006721CD /* Debug */,
+				D99E0F9E24665699006721CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99E0F9F24665699006721CD /* Build configuration list for PBXNativeTarget "WarGameDesigner2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99E0FA024665699006721CD /* Debug */,
+				D99E0FA124665699006721CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99E0FA224665699006721CD /* Build configuration list for PBXNativeTarget "WarGameDesigner2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99E0FA324665699006721CD /* Debug */,
+				D99E0FA424665699006721CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99E0FA524665699006721CD /* Build configuration list for PBXNativeTarget "WarGameDesigner2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99E0FA624665699006721CD /* Debug */,
+				D99E0FA724665699006721CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D99E0F7124665698006721CD /* Project object */;
+}
