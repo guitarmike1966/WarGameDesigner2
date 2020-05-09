@@ -1,0 +1,11 @@
+framework module MKOGameFramework {
+  umbrella header "MKOGameFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MKOGameFramework.Swift {
+    header "MKOGameFramework-Swift.h"
+    requires objc
+}
