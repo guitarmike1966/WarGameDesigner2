@@ -10,10 +10,10 @@ import Cocoa
 import MKOGameFramework
 
 let Padding: CGFloat = 20
-let InitialCellHeight: CGFloat = 32
+let InitialCellHeight: CGFloat = 120
 let InitialCellWidth: CGFloat = InitialCellHeight * 0.866
-let BoardHeight: Int = 45
-let BoardWidth: Int = 60
+let BoardHeight: Int = 10
+let BoardWidth: Int = 15
 
 class ViewController: NSViewController {
 
@@ -151,6 +151,91 @@ class ViewController: NSViewController {
     @IBAction func MountainButtonClick(_ sender: Any) {
         currentTerrain = .Mountain
         CurrentTerrainView.layer?.backgroundColor = currentTerrain.toColor().cgColor
+    }
+
+
+    @IBAction func OpenFile(_ sender: Any) {
+        print("Open file menu option")
+
+        let dialog = NSOpenPanel()
+
+        dialog.title                   = "Open File|Sand Creek Studio"
+        dialog.showsResizeIndicator    = true
+        dialog.showsHiddenFiles        = false
+        dialog.allowsMultipleSelection = false
+        dialog.canChooseDirectories = false
+
+        if (dialog.runModal() ==  NSApplication.ModalResponse.OK) {
+            let result = dialog.url // Pathname of the file
+
+            if (result != nil) {
+                let path: String = result!.path
+
+                if path != "" {
+                    let saveResult = mainBoard.OpenFile(path: path)
+
+                    if saveResult == false {
+                        print("File open failed")
+                    }
+                    else {
+                        print("File open successful")
+                    }
+                }
+            }
+            else {
+                print("Error:  code should never reach this point!")
+            }
+        } else {
+            // User clicked on "Cancel"
+        }
+    }
+
+
+    @IBAction func SaveFile(_ sender: Any) {
+        print("Save file menu option")
+
+        if mainBoard.path == "" {
+            let dialog = NSSavePanel()
+
+            dialog.title                   = "Save File|Sand Creek Studio"
+            dialog.showsResizeIndicator    = true
+            dialog.canCreateDirectories    = true
+            dialog.showsHiddenFiles        = false
+            dialog.allowedFileTypes        = ["xml"]
+            dialog.nameFieldStringValue    = "saveboard.xml"
+
+            if (dialog.runModal() ==  NSApplication.ModalResponse.OK) {
+                let result = dialog.url // Pathname of the file
+
+                if (result != nil) {
+                    let path: String = result!.path
+                    let saveResult = mainBoard.SaveFile(path: path)
+
+                    if saveResult == false {
+                        print("File save failed")
+                    }
+                    else {
+                        print("File save successful")
+                    }
+                }
+                else {
+                    print("Error:  code should never reach this point!")
+                }
+            } else {
+                // User clicked on "Cancel"
+            }
+        }
+        else {
+            let saveResult = mainBoard.SaveFile(path: mainBoard.path)
+
+            if saveResult == false {
+                print("File save failed")
+            }
+            else {
+                print("File save successful")
+            }
+
+        }
     }
 
 }
