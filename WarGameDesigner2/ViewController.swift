@@ -163,7 +163,9 @@ class ViewController: NSViewController {
         dialog.showsResizeIndicator    = true
         dialog.showsHiddenFiles        = false
         dialog.allowsMultipleSelection = false
-        dialog.canChooseDirectories = false
+        dialog.canChooseDirectories    = false
+        dialog.allowedFileTypes        = ["xml"]
+        dialog.nameFieldStringValue    = "saveboard.xml"
 
         if (dialog.runModal() ==  NSApplication.ModalResponse.OK) {
             let result = dialog.url // Pathname of the file
