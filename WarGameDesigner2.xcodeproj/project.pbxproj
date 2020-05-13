@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D90BFAAE246A2CBB00D2DEBA /* MKOGameFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90BFAAC246A2CB500D2DEBA /* MKOGameFramework.framework */; };
-		D90BFAAF246A2CBB00D2DEBA /* MKOGameFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D90BFAAC246A2CB500D2DEBA /* MKOGameFramework.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D99E0F7D24665698006721CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E0F7C24665698006721CD /* AppDelegate.swift */; };
 		D99E0F7F24665698006721CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E0F7E24665698006721CD /* ViewController.swift */; };
 		D99E0F8124665698006721CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99E0F8024665698006721CD /* Assets.xcassets */; };
 		D99E0F8424665698006721CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99E0F8224665698006721CD /* Main.storyboard */; };
 		D99E0F9024665699006721CD /* WarGameDesigner2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E0F8F24665699006721CD /* WarGameDesigner2Tests.swift */; };
 		D99E0F9B24665699006721CD /* WarGameDesigner2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E0F9A24665699006721CD /* WarGameDesigner2UITests.swift */; };
+		D9BFA513246BA1CB0074A080 /* MKOGameFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BFA511246BA1C60074A080 /* MKOGameFramework.framework */; };
+		D9BFA514246BA1CB0074A080 /* MKOGameFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9BFA511246BA1C60074A080 /* MKOGameFramework.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D90BFAAF246A2CBB00D2DEBA /* MKOGameFramework.framework in Embed Frameworks */,
+				D9BFA514246BA1CB0074A080 /* MKOGameFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +49,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D90BFAAC246A2CB500D2DEBA /* MKOGameFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MKOGameFramework.framework; sourceTree = "<group>"; };
 		D99E0F7924665698006721CD /* WarGameDesigner2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarGameDesigner2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99E0F7C24665698006721CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D99E0F7E24665698006721CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		D99E0F9624665699006721CD /* WarGameDesigner2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarGameDesigner2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99E0F9A24665699006721CD /* WarGameDesigner2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameDesigner2UITests.swift; sourceTree = "<group>"; };
 		D99E0F9C24665699006721CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BFA511246BA1C60074A080 /* MKOGameFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MKOGameFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90BFAAE246A2CBB00D2DEBA /* MKOGameFramework.framework in Frameworks */,
+				D9BFA513246BA1CB0074A080 /* MKOGameFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 		D99E0F7B24665698006721CD /* WarGameDesigner2 */ = {
 			isa = PBXGroup;
 			children = (
-				D90BFAAC246A2CB500D2DEBA /* MKOGameFramework.framework */,
+				D9BFA511246BA1C60074A080 /* MKOGameFramework.framework */,
 				D99E0F7C24665698006721CD /* AppDelegate.swift */,
 				D99E0F7E24665698006721CD /* ViewController.swift */,
 				D99E0F8024665698006721CD /* Assets.xcassets */,

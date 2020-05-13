@@ -29,14 +29,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nOBj0bZDA1dxFy3RtBlEH/0/QmweQdj4EFCo9c7VjWQ=
+			mPaOfdA56WEuPlddO5XcolFBX6DyKrMkzwZAB0CzH1M=
 			</data>
 		</dict>
 		<key>Modules/MKOGameFramework.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nOBj0bZDA1dxFy3RtBlEH/0/QmweQdj4EFCo9c7VjWQ=
+			mPaOfdA56WEuPlddO5XcolFBX6DyKrMkzwZAB0CzH1M=
 			</data>
 		</dict>
 		<key>Modules/MKOGameFramework.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+kYleRNQ4/vLSlKA248t01VgXjZvD7EA5cB5iSg1IZA=
+			dPdK2zKw39HAMStRXWcViF60XXulmzz9WEG5AwVkvpY=
 			</data>
 		</dict>
 		<key>Modules/MKOGameFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+kYleRNQ4/vLSlKA248t01VgXjZvD7EA5cB5iSg1IZA=
+			dPdK2zKw39HAMStRXWcViF60XXulmzz9WEG5AwVkvpY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

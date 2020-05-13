@@ -12,8 +12,8 @@ import MKOGameFramework
 let Padding: CGFloat = 20
 let InitialCellHeight: CGFloat = 120
 let InitialCellWidth: CGFloat = InitialCellHeight * 0.866
-let BoardHeight: Int = 10
-let BoardWidth: Int = 15
+let BoardHeight: Int = 40
+let BoardWidth: Int = 60
 
 class ViewController: NSViewController {
 
@@ -164,8 +164,8 @@ class ViewController: NSViewController {
         dialog.showsHiddenFiles        = false
         dialog.allowsMultipleSelection = false
         dialog.canChooseDirectories    = false
-        dialog.allowedFileTypes        = ["xml"]
-        dialog.nameFieldStringValue    = "saveboard.xml"
+        dialog.allowedFileTypes        = ["json"]
+        dialog.nameFieldStringValue    = "saveboard.json"
 
         if (dialog.runModal() ==  NSApplication.ModalResponse.OK) {
             let result = dialog.url // Pathname of the file
@@ -203,15 +203,15 @@ class ViewController: NSViewController {
             dialog.showsResizeIndicator    = true
             dialog.canCreateDirectories    = true
             dialog.showsHiddenFiles        = false
-            dialog.allowedFileTypes        = ["xml"]
-            dialog.nameFieldStringValue    = "saveboard.xml"
+            dialog.allowedFileTypes        = ["json"]
+            dialog.nameFieldStringValue    = "saveboard.json"
 
             if (dialog.runModal() ==  NSApplication.ModalResponse.OK) {
                 let result = dialog.url // Pathname of the file
 
                 if (result != nil) {
                     let path: String = result!.path
-                    let saveResult = mainBoard.SaveFile(path: path)
+                    let saveResult = mainBoard.SaveFile(path: path, type: "JSON")
 
                     if saveResult == false {
                         print("File save failed")
@@ -228,7 +228,7 @@ class ViewController: NSViewController {
             }
         }
         else {
-            let saveResult = mainBoard.SaveFile(path: mainBoard.path)
+            let saveResult = mainBoard.SaveFile(path: mainBoard.path, type: "JSON")
 
             if saveResult == false {
                 print("File save failed")
